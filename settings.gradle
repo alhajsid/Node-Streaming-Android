@@ -1,0 +1,4 @@
+include ':nodemediaclient'
+include ':library'
+include ':app'
+rootProject.name = "Streaming"
