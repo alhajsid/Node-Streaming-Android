@@ -4,8 +4,9 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Matrix;
 import android.media.AudioManager;
-import android.support.annotation.NonNull;
 import android.view.WindowManager;
+
+import androidx.annotation.NonNull;
 
 import java.nio.ByteBuffer;
 import java.util.ArrayList;

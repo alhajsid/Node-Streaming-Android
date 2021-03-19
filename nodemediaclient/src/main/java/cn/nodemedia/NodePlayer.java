@@ -2,9 +2,10 @@ package cn.nodemedia;
 
 import android.content.Context;
 import android.media.AudioManager;
-import android.support.annotation.NonNull;
 import android.view.Surface;
 
+
+import androidx.annotation.NonNull;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -227,9 +228,11 @@ public class NodePlayer implements NodePlayerView.RenderCallback {
 
     public native boolean isLive();
 
+
     @Override
     public void onSurfaceCreated(@NonNull Surface surface) {
-        jniSetSurface(surface);
+
+            jniSetSurface(surface);
     }
 
     @Override

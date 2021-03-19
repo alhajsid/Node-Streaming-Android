@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xyz.tanwb.airship.view.widget.SquareLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/common_rect_match">
+
+    <ImageView
+        android:id="@+id/imgsel_image"
+        style="@style/common_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/icon_default_image" />
+
+    <ImageView
+        android:id="@+id/imgsel_cheaked"
+        style="@style/common_imageview"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/imgsel_uncheck" />
+
+</xyz.tanwb.airship.view.widget.SquareLayout>
